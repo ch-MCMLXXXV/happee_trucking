@@ -16,9 +16,7 @@ const Nav = () => {
          </Navbar.Brand>
          <Navbar.Toggle />
          <Navbar.Collapse>
-            <Navbar.Link href='/' active={true}>
-               Home
-            </Navbar.Link>
+            <Navbar.Link href='/'>Home</Navbar.Link>
             <Navbar.Link href='/About'>About</Navbar.Link>
             <Navbar.Link href='/Services'>Services</Navbar.Link>
             <Navbar.Link href='/Contact'>Contact</Navbar.Link>

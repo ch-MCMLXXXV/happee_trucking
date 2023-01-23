@@ -12,8 +12,8 @@ const Foot = () => {
                   alt='Happee Trucking Logo'
                />
                <Footer.LinkGroup>
-                  <Footer.Link href='#'>About</Footer.Link>
-                  <Footer.Link href='#'>Contact</Footer.Link>
+                  <Footer.Link href='/About'>About</Footer.Link>
+                  <Footer.Link href='/Contact'>Contact</Footer.Link>
                   {/* <Footer.Link href='#'>Apply</Footer.Link> */}
                </Footer.LinkGroup>
             </div>
