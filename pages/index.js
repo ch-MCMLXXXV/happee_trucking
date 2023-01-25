@@ -21,7 +21,31 @@ export default function Home() {
          <main>
             <section>
                <Header />
-               <h1>ABOUT</h1>
+            </section>
+            <section className=' flex flex-wrap p-28 justify-center'>
+               <article className=' w-2/5 flex-none p-3'>
+                  <h3 className=' tracking-tight font-bold text-right text-2xl'>
+                     Who We Are ?
+                  </h3>
+                  <p className=' mt-2 tracking-tight text-right'>
+                     At HAPPEE Trucking, you can rely on the HAPPEE
+                     Trucking expedite team to get your shipment where
+                     it needs to be and fast! When minutes count, our
+                     exclusive-use equipment can be the best method
+                     for all your expedited shipments. We take care of
+                     all the details, from pick-up through final
+                     delivery, keeping you informed every step of the
+                     way.
+                  </p>
+               </article>
+               <article className=' w-2/5 flex-none p-3 bg-red-500 static z-0'></article>
+               <Image
+                  src='/images/trucking.jpeg'
+                  width={200}
+                  height={280}
+                  alt='handshake'
+                  className=' relative z-auto'
+               />
             </section>
          </main>
       </>
