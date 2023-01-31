@@ -80,7 +80,7 @@ const About = () => {
                   Our
                </span>{' '}
                <span className=' text-blue-600 font-bold text-3xl tracking-tight'>
-                  Mission
+                  Goal
                </span>
                <p className=' tracking-tight mt-2'>
                   HAPPEE Trucking operates 24/7/365 supporting our

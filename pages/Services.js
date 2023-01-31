@@ -9,28 +9,51 @@ const Services = () => {
                <h1>Services</h1>
             </div>
          </section>
-         <section className=' p-10 flex flex-row gap-5'>
+         <section className=' p-12'>
+            <h1 className=' text-4xl font-semibold text-center'>
+               Servicing the Great state of Alabama!
+            </h1>
+         </section>
+         <section className=' p-10 flex flex-row gap-5 justify-evenly'>
             <div className=' max-w-sm'>
-               <Card imgSrc='https://flowbite.com/docs/images/blog/image-1.jpg'>
-                  <h5 className='text-2xl font-bold tracking-tight text-gray-900 dark:text-white'>
-                     Noteworthy technology acquisitions 2021
+               <Card className=' bg-blue-500'>
+                  <Image
+                     src='/images/box.png'
+                     width={100}
+                     height={100}
+                     alt='Box'
+                     className=' p-2'
+                  />
+                  <h5 className='text-2xl font-bold tracking-tight dark:text-white'>
+                     Service
                   </h5>
-                  <p className='font-normal text-gray-700 dark:text-gray-400'>
-                     Here are the biggest enterprise technology
-                     acquisitions of 2021 so far, in reverse
-                     chronological order.
-                  </p>
+                  <div className=' font-normal  tracking-tight'>
+                     <li>24 Hours a Day, 7 Days a Week</li>
+                     <li> Operates exclusively in Alabama</li>
+                     <li> Exclusive use of vehicles</li>
+                     <li>
+                        Dedicated Dispatch team for your every need
+                     </li>
+                  </div>
                </Card>
             </div>
             <div className=' max-w-sm'>
-               <Card imgSrc='https://flowbite.com/docs/images/blog/image-1.jpg'>
+               <Card className=''>
+                  <Image
+                     src='/images/smalltruck.png'
+                     width={100}
+                     height={100}
+                     alt='Truck'
+                     className=' p-2'
+                  />
                   <h5 className='text-2xl font-bold tracking-tight text-gray-900 dark:text-white'>
-                     Noteworthy technology acquisitions 2021
+                     LTL Intercept/ Recovery Service
                   </h5>
                   <p className='font-normal text-gray-700 dark:text-gray-400'>
-                     Here are the biggest enterprise technology
-                     acquisitions of 2021 so far, in reverse
-                     chronological order.
+                     When your LTL carrier has taken a shipment and
+                     there are delays in delivery, we have a solution:
+                     Call HAPPEE Trucking, we can make arrangements to
+                     recover your shipment and expedite it to you!
                   </p>
                </Card>
             </div>

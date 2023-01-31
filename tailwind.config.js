@@ -24,6 +24,8 @@ module.exports = {
                "url('https://images.unsplash.com/photo-1547319784-330d3b12b3bb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80)",
             trucking4:
                "url('https://images.pexels.com/photos/7019379/pexels-photo-7019379.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)",
+            trucking5:
+               "url('https://images.unsplash.com/photo-1580307979182-8ea7acfb006a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80')",
          },
       },
    },
