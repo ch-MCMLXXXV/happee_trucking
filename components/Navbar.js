@@ -7,11 +7,11 @@ const Nav = () => {
       <Navbar fluid={true} rounded={true}>
          <Navbar.Brand>
             <Image
-               src='https://flowbite.com/docs/images/logo.svg'
+               src='/images/happee.webp'
                className='mr-3 h-6 sm:h-9'
                alt='Flowbite Logo'
-               width={300}
-               height={300}
+               width={70}
+               height={70}
             />
          </Navbar.Brand>
          <Navbar.Toggle />

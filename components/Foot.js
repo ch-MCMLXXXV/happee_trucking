@@ -1,16 +1,25 @@
 import { Footer } from 'flowbite-react';
 import { BsFacebook, BsTwitter, BsInstagram } from 'react-icons/bs';
+import Image from 'next/image';
 
 const Foot = () => {
    return (
       <Footer container={true} className=' '>
          <div className=' w-full text-center '>
             <div className=' w-full justify-between sm:flex sm:items-center sm:justify-between '>
-               <Footer.Brand
-                  href='#'
-                  src=''
+               <Image
+                  src='/images/happee.webp'
+                  height={100}
+                  width={100}
                   alt='Happee Trucking Logo'
                />
+               {/* <Footer.Brand
+                  href='#'
+                  src='/images/happee.webp'
+                  height={300}
+                  width={300}
+                  alt='Happee Trucking Logo'
+               /> */}
                <Footer.LinkGroup>
                   <Footer.Link href='/About'>About</Footer.Link>
                   <Footer.Link href='/Contact'>Contact</Footer.Link>

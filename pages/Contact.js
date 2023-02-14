@@ -1,5 +1,6 @@
 import { Label, TextInput, Button, Textarea } from 'flowbite-react';
-import { HiEnvelope } from 'react-icons/hi2';
+import { HiEnvelope, HiPhone } from 'react-icons/hi2';
+import { MdMapsHomeWork } from 'react-icons/md';
 import Image from 'next/image';
 
 const Contact = () => {
@@ -82,13 +83,40 @@ const Contact = () => {
                      placeholder='Your Message'
                   />
                </div>
-               <div>
-                  <div className=' w-2/5 flex-none'>
+               <div className=' w-1/5 flex-none m-3'>
+                  <div>
                      <Image
-                        width={500}
-                        height={500}
+                        src='/images/happee.webp'
+                        width={300}
+                        height={300}
                         alt='Happee Trucking Logo'
                      />
+                  </div>
+               </div>
+               <div className=' w-1/5 flex-none p-4'>
+                  <div>
+                     <article>
+                        <HiEnvelope size={20} className=' mb-2' />
+                        <span>
+                           <a
+                              href='mailto:dispatch@happeetrucking.com'
+                              className=' text-blue-600'
+                           >
+                              dispatch@happeetrucking.com
+                           </a>
+                        </span>
+
+                        <HiPhone size={20} className=' mt-2 mb-2' />
+                        <span className=''> 866.542.7733</span>
+                        <MdMapsHomeWork
+                           size={20}
+                           className=' mt-2 mb-2'
+                        />
+                        <p>
+                           2523 Garden Park Drive NW Huntsville, AL
+                           35810
+                        </p>
+                     </article>
                   </div>
                </div>
                <div className=' w-1/2 flex-none p-2'>
