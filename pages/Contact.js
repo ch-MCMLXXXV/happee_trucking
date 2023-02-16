@@ -25,7 +25,12 @@ const Contact = () => {
          </section>
 
          <section className=' p-5'>
-            <form className='flex flex-wrap'>
+            <form
+               className='flex flex-wrap'
+               name='contact'
+               method='POST'
+               data-netlify='true'
+            >
                <div className=' w-2/5 flex-none p-2'>
                   <div className=' mb-2 block'>
                      <Label htmlFor='firstname' value='First Name' />

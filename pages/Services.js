@@ -70,6 +70,7 @@ const Services = () => {
                         alt='Cargo Van'
                         width={500}
                         height={500}
+                        unoptimized={true}
                         className=' p-5 rounded'
                      />
                      <div className=' p-5'>

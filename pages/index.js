@@ -16,7 +16,7 @@ export default function Home() {
                name='viewport'
                content='width=device-width, initial-scale=1'
             />
-            <link rel='icon' href='/favicon.ico' />
+            <link rel='icon' href='/images/happee.webp' />
          </Head>
          <main>
             <section>
@@ -43,7 +43,8 @@ export default function Home() {
                      src='/images/shipyard.avif'
                      width={400}
                      height={400}
-                     alt='handshake'
+                     unoptimized={true}
+                     alt='shipyard'
                      className=' shadow-xl shadow-blue-600 rounded-xl'
                   />
                </article>
