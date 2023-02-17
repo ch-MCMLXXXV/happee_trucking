@@ -6,7 +6,7 @@ import Image from 'next/image';
 const Contact = () => {
    return (
       <>
-         <section className=' p-10  bg-blue-600'>
+         <section className=' p-10  bg-blue-600 sm:w-full'>
             <div className=' text-center text-6xl text-white font-bold'>
                <h1>Contact Us</h1>
             </div>
@@ -26,13 +26,13 @@ const Contact = () => {
 
          <section className=' p-5'>
             <form
-               className='flex flex-wrap'
+               className='md:flex md:flex-wrap'
                name='contact'
                method='POST'
                data-netlify='true'
             >
-               <div className=' w-2/5 flex-none p-2'>
-                  <div className=' mb-2 block'>
+               <div className=' md:w-2/5 md:flex-none p-2'>
+                  <div className=' md:mb-2  md:block'>
                      <Label htmlFor='firstname' value='First Name' />
                   </div>
                   <TextInput
@@ -42,8 +42,8 @@ const Contact = () => {
                      placeholder='First Name'
                   />
                </div>
-               <div className=' w-2/5 flex-none p-2'>
-                  <div className=' mb-2 block'>
+               <div className=' md:w-2/5 md:flex-none p-2'>
+                  <div className=' md:mb-2 md:block'>
                      <Label htmlFor='lastname' value='Last Name' />
                   </div>
                   <TextInput
@@ -53,7 +53,7 @@ const Contact = () => {
                      placeholder='Last Name'
                   />
                </div>
-               <div className=' w-2/5 flex-none p-2'>
+               <div className=' md:w-2/5 md:flex-none p-2'>
                   <div className=' mb-2 block'>
                      <Label htmlFor='email' value='Email' />
                   </div>
@@ -64,7 +64,7 @@ const Contact = () => {
                      placeholder='your@email.com'
                   />
                </div>
-               <div className=' w-2/6 flex-none p-2'>
+               <div className=' md:w-2/6 md:flex-none p-2'>
                   <div className=' mb-2 block'>
                      <Label htmlFor='telephone' value='Phone' />
                   </div>
@@ -76,7 +76,7 @@ const Contact = () => {
                      pattern='[0-9]{3}-[0-9]{3}-[0-9]{4}'
                   />
                </div>
-               <div className=' w-2/5 flex-none p-2'>
+               <div className=' md:w-2/5 md:flex-none p-2'>
                   <div className=' mb-2 block'>
                      <Label htmlFor='message' value='Message' />
                   </div>
@@ -88,7 +88,7 @@ const Contact = () => {
                      placeholder='Your Message'
                   />
                </div>
-               <div className=' w-1/5 flex-none m-3'>
+               <div className=' md:w-1/5 md:flex-none m-3'>
                   <div>
                      <Image
                         src='/images/happee.webp'
@@ -98,7 +98,7 @@ const Contact = () => {
                      />
                   </div>
                </div>
-               <div className=' w-1/5 flex-none p-4'>
+               <div className=' md:w-1/5 md:flex-none p-4'>
                   <div>
                      <article>
                         <HiEnvelope size={20} className=' mb-2' />
@@ -124,7 +124,7 @@ const Contact = () => {
                      </article>
                   </div>
                </div>
-               <div className=' w-1/2 flex-none p-2'>
+               <div className=' md:w-1/2 md:flex-none p-2'>
                   <Button type='submit' value='Submit'>
                      Submit
                   </Button>

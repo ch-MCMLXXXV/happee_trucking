@@ -22,12 +22,12 @@ export default function Home() {
             <section>
                <Header />
             </section>
-            <section className=' flex flex-wrap p-28 justify-center'>
-               <article className=' w-2/5 flex-none p-3'>
-                  <h3 className=' tracking-tight font-bold text-right text-2xl underline decoration-blue-600 underline-offset-8 decoration-4'>
+            <section className=' p-10 md:flex md:justify-center md:p-28 '>
+               <article className=' p-5 md:w-2/5 md:flex-none'>
+                  <h3 className=' tracking-tight font-bold text-center text-2xl underline decoration-blue-600 underline-offset-8 decoration-4 md:text-right'>
                      Who We Are ?
                   </h3>
-                  <p className=' mt-4 tracking-tight text-right'>
+                  <p className=' mt-4 tracking-tight text-center md:text-right'>
                      At HAPPEE Trucking, you can rely on the HAPPEE
                      Trucking expedite team to get your shipment where
                      it needs to be and fast! When minutes count, our
@@ -38,14 +38,14 @@ export default function Home() {
                      way.
                   </p>
                </article>
-               <article className='  w-2/5 flex-none p-3 '>
+               <article className='  flex-none p-3'>
                   <Image
                      src='/images/shipyard.avif'
                      width={400}
                      height={400}
                      unoptimized={true}
                      alt='shipyard'
-                     className=' shadow-xl shadow-blue-600 rounded-xl'
+                     className=' shadow-xl shadow-blue-600 rounded-xl '
                   />
                </article>
             </section>

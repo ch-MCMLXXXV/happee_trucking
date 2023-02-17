@@ -8,8 +8,8 @@ const Nav = () => {
          <Navbar.Brand>
             <Image
                src='/images/happee.webp'
-               className='mr-3 h-6 sm:h-9'
-               alt='Flowbite Logo'
+               className='mr-3 h-3 sm:h-12'
+               alt='Happee Trucking'
                width={70}
                height={70}
             />

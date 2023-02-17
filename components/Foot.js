@@ -9,8 +9,8 @@ const Foot = () => {
             <div className=' w-full justify-between sm:flex sm:items-center sm:justify-between '>
                <Image
                   src='/images/happee.webp'
-                  height={100}
-                  width={100}
+                  height={70}
+                  width={70}
                   alt='Happee Trucking Logo'
                />
                {/* <Footer.Brand

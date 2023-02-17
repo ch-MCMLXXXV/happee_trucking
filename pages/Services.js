@@ -14,8 +14,8 @@ const Services = () => {
                Servicing the Great state of Alabama!
             </h1>
          </section>
-         <section className=' p-10 flex flex-row gap-5 justify-evenly'>
-            <div className=' max-w-sm'>
+         <section className='py-10 md:flex md:flex-row md:gap-5 md:justify-evenly'>
+            <div className=' max-w-sm mb-5'>
                <Card className=' bg-blue-500'>
                   <Image
                      src='/images/box.png'
@@ -51,7 +51,7 @@ const Services = () => {
                   </h5>
                   <p className='font-normal text-gray-700 dark:text-gray-400'>
                      When your LTL carrier has taken a shipment and
-                     there are delays in delivery, we have a solution:
+                     there are delays in delivery, we have a solution!
                      Call HAPPEE Trucking, we can make arrangements to
                      recover your shipment and expedite it to you!
                   </p>
@@ -62,16 +62,16 @@ const Services = () => {
             <h1 className=' text-4xl font-bold text-center p-5'>
                Vehicle Types
             </h1>
-            <div className='h-56 sm:h-64 xl:h-80 2xl:h-96'>
+            <div className=' h-56 sm:h-64 xl:h-80 2xl:h-96'>
                <Carousel>
-                  <div className='flex flex-wrap h-full items-center justify-center'>
+                  <div className='flex flex-wrap w-2/5 md:flex md:flex-wrap md:h-full md:items-center md:justify-center'>
                      <Image
                         src='/images/cargovan.avif'
                         alt='Cargo Van'
                         width={500}
                         height={500}
                         unoptimized={true}
-                        className=' p-5 rounded'
+                        className='  rounded'
                      />
                      <div className=' p-5'>
                         <h4 className=' text-xl font-semibold'>
@@ -83,7 +83,7 @@ const Services = () => {
                         <li>Heigth: 48in </li>
                      </div>
                   </div>
-                  <div className='flex h-full items-center justify-center'>
+                  <div className='md:flex md:h-full md:items-center md:justify-center'>
                      <Image
                         src='/images/sprintervan.webp'
                         alt='Cargo Van'
@@ -101,7 +101,7 @@ const Services = () => {
                         <li>Height: 72 in</li>
                      </div>
                   </div>
-                  <div className='flex h-full items-center justify-center'>
+                  <div className='md:flex md:h-full md:items-center md:justify-center'>
                      <Image
                         src='/images/straighttruck.jpeg'
                         alt='Cargo Van'
@@ -119,7 +119,7 @@ const Services = () => {
                         <li>Height: 96 in</li>
                      </div>
                   </div>
-                  <div className='flex h-full items-center justify-center'>
+                  <div className='md:flex md:h-full md:items-center md:justify-center'>
                      <Image
                         src='/images/semitrailer.jpeg'
                         alt='Cargo Van'

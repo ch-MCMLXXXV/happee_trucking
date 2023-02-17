@@ -8,7 +8,7 @@ const About = () => {
             </div>
          </section>
 
-         <section className=' p-16'>
+         <section className='   md:p-16'>
             <article className=' p-10 text-center '>
                <div className=' flex justify-center'>
                   <Image
@@ -19,16 +19,16 @@ const About = () => {
                      className=' mb-2 '
                   />
                </div>
-               <span className=' text-4xl font-bold text-black tracking-tight'>
+               <span className='  text-3xl md:text-4xl font-bold text-black tracking-tight'>
                   Who
                </span>{' '}
-               <span className=' text-blue-600 font-bold text-4xl tracking-tight'>
+               <span className='text-3xl  text-blue-600 font-bold md:text-4xl tracking-tight'>
                   We
                </span>{' '}
-               <span className=' text-4xl font-bold text-black tracking-tight'>
+               <span className='text-3xl  md:text-4xl font-bold text-black tracking-tight'>
                   Are
                </span>
-               <p className=' tracking-tight'>
+               <p className=' tracking-tight text-center pt-4'>
                   HAPPEE Trucking was formed out of the need to create
                   a minority owned and veteran led full-service
                   provider of mission critical transportation
@@ -43,8 +43,8 @@ const About = () => {
                </p>
             </article>
          </section>
-         <section className='flex flex-wrap p-16 justify-center bg-slate-200'>
-            <article className=' w-2/5 flex-none p-10'>
+         <section className='md:flex md:flex-wrap md:p-16 md:justify-center bg-slate-200'>
+            <article className=' md:w-2/5 md:flex-none p-10'>
                <Image
                   src='/images/handshake2.svg'
                   width={45}
@@ -68,7 +68,7 @@ const About = () => {
                   keeping you informed every step of the way.
                </p>
             </article>
-            <article className=' w-2/5 flex-none p-10'>
+            <article className=' md:w-2/5 md:flex-none p-10'>
                <Image
                   src='/images/goal.svg'
                   width={45}
