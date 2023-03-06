@@ -14,7 +14,7 @@ const Services = () => {
                Servicing the Great state of Alabama!
             </h1>
          </section>
-         <section className='py-10 md:flex md:flex-row md:gap-5 md:justify-evenly'>
+         <section className='py-10  sm:flex sm:gap-5 md:gap-5 xl:flex xl:justify-evenly'>
             <div className=' max-w-sm mb-5'>
                <Card className=' bg-blue-500'>
                   <Image
