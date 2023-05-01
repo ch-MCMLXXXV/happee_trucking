@@ -16,10 +16,10 @@ const Contact = () => {
                <h2>
                   {' '}
                   Please fill out the form below if you have questions
-                  about our service!
+                  about our services!
                </h2>
             </div>
-            <div className=' text-center text-2xl p-3'>
+            <div className=' text-center text-3xl p-3'>
                <span>THANKS!</span>
             </div>
          </section>
