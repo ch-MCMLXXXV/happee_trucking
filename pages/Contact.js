@@ -29,8 +29,14 @@ const Contact = () => {
                className='md:flex md:flex-wrap'
                name='contact'
                method='POST'
+               action='/Success'
                data-netlify='true'
             >
+               <input
+                  type='hidden'
+                  name='form-name'
+                  value='contact'
+               />
                <div className=' md:w-2/5 md:flex-none p-2'>
                   <div className=' md:mb-2  md:block'>
                      <Label htmlFor='firstname' value='First Name' />
@@ -72,11 +78,11 @@ const Contact = () => {
                      id='telephone'
                      name='telephone'
                      type='tel'
-                     placeholder='(000) 000-0000'
-                     pattern='[0-9]{3}-[0-9]{3}-[0-9]{4}'
+                     placeholder='000-000-0000'
+                     // pattern='[0-9]{3}-[0-9]{3}-[0-9]{4}'
                   />
                </div>
-               <div className=' md:w-2/5 md:flex-none p-2'>
+               <div className=' md: w-2/5 md:flex-none p-2'>
                   <div className=' mb-2 block'>
                      <Label htmlFor='message' value='Message' />
                   </div>
@@ -88,6 +94,13 @@ const Contact = () => {
                      placeholder='Your Message'
                   />
                </div>
+               <div className=' md:w-3/5 md:flex-none p-2'>
+                  <Button type='submit' value='Submit'>
+                     Submit
+                  </Button>
+               </div>
+            </form>
+            <article className='md:flex md:flex-wrap'>
                <div className=' md:w-1/5 md:flex-none m-3'>
                   <div>
                      <Image
@@ -124,12 +137,7 @@ const Contact = () => {
                      </article>
                   </div>
                </div>
-               <div className=' md:w-1/2 md:flex-none p-2'>
-                  <Button type='submit' value='Submit'>
-                     Submit
-                  </Button>
-               </div>
-            </form>
+            </article>
          </section>
       </>
    );
