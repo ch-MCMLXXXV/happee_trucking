@@ -11,7 +11,7 @@ const Services = () => {
          </section>
          <section className=' p-12'>
             <h1 className=' text-4xl font-semibold text-center'>
-               Servicing the Great state of Alabama!
+               Everywhere, Effortlessly!
             </h1>
          </section>
          <section className='py-10  sm:flex sm:gap-5 md:gap-5 xl:flex xl:justify-evenly'>
@@ -29,7 +29,10 @@ const Services = () => {
                   </h5>
                   <div className=' font-normal  tracking-tight'>
                      <li>24 Hours a Day, 7 Days a Week</li>
-                     <li> Operates exclusively in Alabama</li>
+                     <li>
+                        {' '}
+                        Wide range of equipment to meet your needs
+                     </li>
                      <li> Exclusive use of vehicles</li>
                      <li>
                         Dedicated Dispatch team for your every need

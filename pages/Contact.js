@@ -118,21 +118,42 @@ const Contact = () => {
                         <span>
                            <a
                               href='mailto:dispatch@happeetrucking.com'
-                              className=' text-blue-600'
+                              className=' hover:text-blue-600'
                            >
                               dispatch@happeetrucking.com
                            </a>
                         </span>
 
-                        <HiPhone size={20} className=' mt-2 mb-2' />
-                        <span className=''> 866.542.7733</span>
+                        <HiPhone size={20} className=' mt-6 mb-2' />
+                        <span className=''>
+                           {' '}
+                           866.5HAPPEE (866.542.7733)
+                        </span>
                         <MdMapsHomeWork
                            size={20}
-                           className=' mt-2 mb-2'
+                           className=' mt-6 mb-2'
                         />
                         <p>
-                           2523 Garden Park Drive NW Huntsville, AL
-                           35810
+                           <a
+                           // className=' hover:text-blue-500'
+                           // href='https://goo.gl/maps/Vs6wVjLbsVuBmy3Q6'
+                           >
+                              Corporate Office <br />
+                              2523 Garden Park Drive NW <br />{' '}
+                              Huntsville, AL 35810
+                           </a>
+                           {/* Corporate Office <br />
+                           2523 Garden Park Drive NW <br />{' '}
+                           Huntsville, AL 35810 */}
+                        </p>
+                        <br />
+                        <p>
+                           <a>
+                              Satellite Office <br />
+                              15356 US-11
+                              <br />
+                              Coaling, AL 35453
+                           </a>
                         </p>
                      </article>
                   </div>
