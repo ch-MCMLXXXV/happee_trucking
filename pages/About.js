@@ -90,6 +90,84 @@ const About = () => {
                   customers can focus on what they do best.
                </p>
             </article>
+            <article className=' md:w-2/5 md:flex-none p-10'>
+               <Image
+                  src='/images/MBE.png'
+                  width={300}
+                  height={300}
+                  alt='Minority Owned Business Certification'
+               />
+            </article>
+            <article className=' md:w-2/5 md:flex-none p-10'>
+               <Image
+                  src='/images/VOB.png'
+                  width={500}
+                  height={500}
+                  alt='Veteran Owned Business'
+               />
+            </article>
+         </section>
+         <section className=' grid grid-cols-12 grid-rows-6 gap-3 p-16'>
+            <div className=' col-span-full text-center text-2xl font-semibold'>
+               <h1>Our Customers:</h1>
+            </div>
+            <div className=' row-start-2 col-span-3'>
+               <Image
+                  src='/images/lear.svg'
+                  width={300}
+                  height={300}
+                  alt='Lear'
+               />
+            </div>
+            <div className=' row-start-4 col-start-2 col-span-3'>
+               <Image
+                  src='/images/chrobinson.png'
+                  width={300}
+                  height={300}
+                  alt='C.H. Robinson'
+               />
+            </div>
+            <div className=' row-start-3 col-start-5 col-span-3 row-span-1'>
+               <Image
+                  src='/images/pinnanclet.png'
+                  width={300}
+                  height={300}
+                  alt='Pinnancle'
+               />
+            </div>
+            <div className=' row-start-5 col-start-6 col-span-3'>
+               <Image
+                  src='/images/amazon.png'
+                  width={300}
+                  height={300}
+                  alt='Amazon Relay'
+                  className=' bg-amazon rounded-md'
+               />
+            </div>
+            <div className=' row-start-2 col-start-10 col-span-3'>
+               <Image
+                  src='/images/fetch_freight.png'
+                  width={300}
+                  height={300}
+                  alt='Fetch Freight'
+               />
+            </div>
+            <div className=' row-start-4 col-start-9 col-span-3 row-span-1'>
+               <Image
+                  src='/images/uber-freight.svg'
+                  width={300}
+                  height={300}
+                  alt='Uber Freight'
+               />
+            </div>
+            {/* <div className=''>
+               <Image
+                  src='/images/mobis.jpeg'
+                  width={500}
+                  height={500}
+                  alt='Mobis'
+               />
+            </div> */}
          </section>
       </>
    );

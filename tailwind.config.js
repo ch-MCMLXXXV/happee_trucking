@@ -8,6 +8,9 @@ module.exports = {
       './node_modules/flowbite-react/**/*.js',
    ],
    theme: {
+      colors: {
+         amazon: '#002E36',
+      },
       screens: {
          sm: '390px',
          md: [
