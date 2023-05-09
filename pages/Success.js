@@ -1,5 +1,9 @@
 const Success = () => {
-   return <div>Form successfully submitted!</div>;
+   return (
+      <div className=' text-center text-3xl font-semibold'>
+         Form successfully submitted!
+      </div>
+   );
 };
 
 export default Success;
