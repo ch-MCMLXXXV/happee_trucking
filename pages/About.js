@@ -107,7 +107,7 @@ const About = () => {
                />
             </article>
          </section>
-         <section className=' grid grid-cols-12 grid-rows-6 gap-3 p-16'>
+         <section className=' grid grid-cols-12 grid-rows-6 gap-3 p-5'>
             <div className=' col-span-full text-center text-2xl font-semibold'>
                <h1>Our Customers:</h1>
             </div>
@@ -132,6 +132,7 @@ const About = () => {
                   src='/images/pinnanclet.png'
                   width={300}
                   height={300}
+                  unoptimized='true'
                   alt='Pinnancle'
                />
             </div>
